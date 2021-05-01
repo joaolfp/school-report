@@ -27,4 +27,5 @@ jobs:
       run: |
         pip install pytest
         pytest
-        pytest -p school_report --cov
+        pip install pytest-cov
+        pytest --cov=school_report
