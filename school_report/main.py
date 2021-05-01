@@ -1,6 +1,9 @@
 from report import Report
 
-report = Report('João Lucas')
+name = input('Digite o nome do aluno: ')
+
+report = Report(name)
+print('=================================================================')
 print('================= Notas do ' + report.name + ' =================')
 print('----------------------------------------------')
 print('================= Matemática =================')
