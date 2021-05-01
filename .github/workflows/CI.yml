@@ -29,4 +29,6 @@ jobs:
         pytest
         
     - name: Post coverage
-      run: bash <(curl -s https://codecov.io/bash)
+      run: |
+        pip install coverage
+        bash <(curl -s https://codecov.io/bash)
