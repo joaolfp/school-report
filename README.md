@@ -3,7 +3,7 @@
 [![CI](https://github.com/joaolfp/school-report/actions/workflows/CI.yml/badge.svg)](https://github.com/joaolfp/school-report/actions/workflows/CI.yml)
 
 ## What is this?
-I created this repository to generate a newsletter, believe only for educational
+I created this repository to generate a school report card, the user can type the student's grades and the terminal already shows if he passed or repeated the year. This project is educational only.
 
 ## Result at the terminal
 <img src='https://github.com/joaolfp/school-report/blob/master/photos/terminal.png' width='500px' height='500px'/>
