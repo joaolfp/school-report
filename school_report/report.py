@@ -6,15 +6,15 @@ class Report(object):
     def __init__(self, name):
         self.name = name
 
-    def mathTotal(self, first, second, three, four):
+    def math_total(self, first, second, three, four):
         math = MathSubject()
-        return float(math.firstNote(first) + math.secondNote(second) + math.threeNote(three) + math.fourNote(four))
+        return float(math.first_note(first) + math.second_note(second) + math.three_note(three) + math.four_note(four))
 
-    def englishTotal(self, first, second, three, four):
+    def english_total(self, first, second, three, four):
         english = EnglishSubject()
-        return float(english.firstNote(first) + english.secondNote(second) + english.threeNote(three) + english.fourNote(four))
+        return float(english.first_note(first) + english.second_note(second) + english.three_note(three) + english.four_note(four))
 
-    def totalNotes(self, math, english):
+    def total_notes(self, math, english):
         total = (math + english) / 2
 
         if total >= 20:

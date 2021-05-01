@@ -17,8 +17,8 @@ threeEnglish = float(input('Nota do terceiro bimestre: '))
 fourEnglish = float(input('Nota do quarto bimestre: '))
 print('----------------------------------------------')
 
-mathNote = report.mathTotal(firstMath, secondMath, threeMath, fourMath)
-englishNote = report.englishTotal(firstEnglish, secondEnglish, threeEnglish, fourEnglish)
+mathNote = report.math_total(firstMath, secondMath, threeMath, fourMath)
+englishNote = report.english_total(firstEnglish, secondEnglish, threeEnglish, fourEnglish)
 
 print('----------------------------------------------------')
 print('----------------------------------------------------')
@@ -34,4 +34,4 @@ print('🇺🇸 Inglês' + ' - 2 Bimestre ' + '- ' + str(secondMath))
 print('🇺🇸 Inglês' + ' - 3 Bimestre ' + '- ' + str(threeMath))
 print('🇺🇸 Inglês' + ' - 4 Bimestre ' + '- ' + str(fourMath))
 
-print(report.totalNotes(mathNote, englishNote))
+print(report.total_notes(mathNote, englishNote))

@@ -1,13 +1,13 @@
 class MathSubject(object):
     
-    def firstNote(self, note):
+    def first_note(self, note):
         return note
 
-    def secondNote(self, note):
+    def second_note(self, note):
         return note
 
-    def threeNote(self, note):
+    def three_note(self, note):
         return note
 
-    def fourNote(self, note):
+    def four_note(self, note):
         return note
