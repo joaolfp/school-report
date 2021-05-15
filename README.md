@@ -7,7 +7,7 @@
 I created this repository to generate a school report card, the user can type the student's grades and the terminal already shows if he passed or repeated the year. This project is educational only.
 
 ## Result at the terminal
-<img src='https://github.com/joaolfp/school-report/blob/master/photos/terminal.png' width='500px' height='500px'/>
+<img src='https://github.com/joaolfp/school-report/blob/master/photos/terminal.png' width='700px' height='500px'/>
 
 ## Tests passed
 <img src='https://github.com/joaolfp/school-report/blob/master/photos/tests_passed.png' width='500px' height='200px'/>
