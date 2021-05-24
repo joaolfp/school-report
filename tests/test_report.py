@@ -1,5 +1,5 @@
 import unittest
-from report import Report
+from src.report import Report
 
 class TestReport(unittest.TestCase):
 

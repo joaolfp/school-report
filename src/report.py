@@ -1,5 +1,5 @@
-from math_subject import MathSubject
-from english_subject import EnglishSubject
+from src.math_subject import MathSubject
+from src.english_subject import EnglishSubject
 
 class Report(object):
 
